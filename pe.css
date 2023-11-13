@@ -1,0 +1,41 @@
+.pe {
+  background: #000;
+}
+
+.pe-c {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.texto-pe {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: #ccc;
+}
+
+.contato-pe li {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contato-pe li a {
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .pe-c {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .contato-pe li {
+        font-size: 1.5rem;
+    }
+}
